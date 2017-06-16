@@ -7,6 +7,9 @@ deployed to https://stackcommercechallenge.herokuapp.com/
 created on rails ~5.1
 </li>
 <li>
+rendered using partials and ajax called (to keep the app single page)
+</li>
+<li>
 use devise for the authentication layer. login with:
   <ul>
   <li>
@@ -21,8 +24,5 @@ use devise for the authentication layer. login with:
      one admin seeded
   </li>
   <ul>
-</li>
-<li>
-rendered using partials and ajax called (to keep the app single page)
 </li>
 <ol>
