@@ -1,0 +1,21 @@
+<div class="row">
+  <div>
+    <h1>input</h1>
+    <%= form_for :tweet, url: tweets_path(@post), remote: true do |f| %>
+      <div class='input-group'>
+        <%= text_field_tag 'input', nil, class:"form-control" %>
+        <span class="input-group-btn">
+          <%= f.submit "tweets", :class=>"btn btn-secondary" %>
+        </span>
+      </div>
+    <% end %>
+  </div>
+</div>
+<div class="row">
+  <div id="results"></div>
+  <% if flash[:error] %>
+    <h3 id="flash">
+      <%= flash.now[:error] %>
+    </h3>
+  <% end %>
+</div>

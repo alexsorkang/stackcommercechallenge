@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+    <tr class="success">
+      <th>time</th>
+      <th>tweet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% result.each do |tweet| %>
+      <tr>
+        <th><%= tweet.created_at %></th>
+        <th><%= tweet.text %></th>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
