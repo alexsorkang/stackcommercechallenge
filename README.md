@@ -15,7 +15,7 @@ use devise for the authentication layer. login with:
      password: password123
   </li>
   <li>
-  b. removed the registration path to prevent creation of new admins
+     removed the registration path to prevent creation of new admins
   </li>
   <ul>
 </li>
