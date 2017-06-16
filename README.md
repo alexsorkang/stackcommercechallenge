@@ -17,6 +17,12 @@ use devise for the authentication layer. login with:
   <li>
      removed the registration path to prevent creation of new admins
   </li>
+  <li>
+     one admin seeded
+  </li>
   <ul>
+</li>
+<li>
+rendered using partials and ajax called (to keep the app single page)
 </li>
 <ol>
